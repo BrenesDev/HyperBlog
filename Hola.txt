@@ -23,3 +23,6 @@ GIT REFLOG Y DESPUÉS GIT RESET PARA RETOMAR LOS CAMBIOS ELIMINADOS
 ANTES DEL GIT RESET XD
 
 Git log --stat para ver los cambios en cada commit
+
+Git checkout volver un archivo especifico a un commit especifico
+git checkout master
