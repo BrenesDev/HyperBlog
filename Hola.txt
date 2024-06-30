@@ -21,3 +21,5 @@ Hard devuelve absoultamente todo a la versión que necesitamos
 y soft devuelve a la versión que necesitamos, pero los cambiso que están en stagin se mantienen en stagin.
 GIT REFLOG Y DESPUÉS GIT RESET PARA RETOMAR LOS CAMBIOS ELIMINADOS 
 ANTES DEL GIT RESET XD
+
+Git log --stat para ver los cambios en cada commit
