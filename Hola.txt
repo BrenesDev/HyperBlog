@@ -26,3 +26,5 @@ Git log --stat para ver los cambios en cada commit
 
 Git checkout volver un archivo especifico a un commit especifico
 git checkout master
+
+Git merge para jalar cambios de una rama a la rama HEAD

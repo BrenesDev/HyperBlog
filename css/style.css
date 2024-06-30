@@ -8,7 +8,7 @@ body
 }
 
 #post{
-    text-align: left;
+    text-align: right;
     border: 1px solid #ccc;
     border-radius: 0 0 15px 15px;
     width: 70%;
