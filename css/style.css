@@ -2,5 +2,16 @@ body
 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: aqua;
+    color: #050505;
+    margin: 0;
+    padding: 0;
+}
+
+#post{
+    text-align: left;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1em;
 }
