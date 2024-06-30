@@ -19,4 +19,5 @@ merge unir una rama con otra
 git reset se usa pra volver a una versión anterior
 Hard devuelve absoultamente todo a la versión que necesitamos
 y soft devuelve a la versión que necesitamos, pero los cambiso que están en stagin se mantienen en stagin.
-
+GIT REFLOG Y DESPUÉS GIT RESET PARA RETOMAR LOS CAMBIOS ELIMINADOS 
+ANTES DEL GIT RESET XD
