@@ -15,3 +15,8 @@ Otra linea
 git log ves el historial de commit o cambios
 git show ves los cambios de los ultimos dos commit 
 git diff a b para comparar commit
+merge unir una rama con otra
+git reset se usa pra volver a una versión anterior
+Hard devuelve absoultamente todo a la versión que necesitamos
+y soft devuelve a la versión que necesitamos, pero los cambiso que están en stagin se mantienen en stagin.
+
