@@ -12,3 +12,6 @@ git log: se usa para ver la historia de nuestros archivos, los commits, el usuar
 una nueva linea
 
 Otra linea
+git log ves el historial de commit o cambios
+git show ves los cambios de los ultimos dos commit 
+git diff a b para comparar commit
