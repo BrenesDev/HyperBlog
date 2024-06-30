@@ -10,17 +10,17 @@ body
 #post{
     text-align: left;
     border: 1px solid #ccc;
-    border-radius: 15px;
+    border-radius: 0 0 15px 15px;
     width: 70%;
     margin: 0 auto;
     padding: 1em;
 }
 
 #header_post{
-    text-align: center;
-    width: 15%;
-    padding: 0.1em;
-    border-radius:15px;
+    text-align: left;
+    width: 70%;
+    padding: 1em;
+    border-radius:15px 15px 0 0 ;
     background-color: aqua;
     margin: 0 auto;
 }
