@@ -28,3 +28,9 @@ Git checkout volver un archivo especifico a un commit especifico
 git checkout master
 
 Git merge para jalar cambios de una rama a la rama HEAD
+
+Llaves públicas y privadas
+Método para compartir mensajes cifrados entre dos personas
+cada computador u ordenador o usuario tiene dos llaves una pública y una privada, entonces cuándo quiero
+contactarme con una persona le comparto mi llave pública para que ella pueda enviarme mensajes, y necesito 
+su llave pública para poder compartile mensajes, cada quién los descifra con su llave privada.
