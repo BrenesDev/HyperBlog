@@ -45,3 +45,8 @@ comando para verificar que todas las llves ssh dentro del sistema operativo del 
 en windows:$ eval $(ssh-agent -s)
 ssh-add id_rsa para agregar la ssh hay que navegar hasta el directorio donde se encuentra y ejecutar el comando
 para mac : $ eval "$(ssh-agent -s)" ssh-add -K ruta
+
+
+cargar el repositorio remoto
+$ git remote add origin https://github.com/BrenesDev/HyperBlog.git
+$ git pull origin main --allow-unrelated-histories
