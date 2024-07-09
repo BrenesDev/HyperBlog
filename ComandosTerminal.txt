@@ -21,6 +21,33 @@ búsqueda por patrones de archivos
 ls *.ext -> busca arch con la extension
 ls [ab]*-> archivos que empiecen con a o b
 ls [[:lower:]]* empiecen M o m
+ls pictures > archivo.txt moviendo el nombre de todas las pictures al archivo 
+
+Redirecciones: Cómo funciona la Shell
+1 stdout -> salida sin error
+2 stderr -> salida erronea
+
+ls documents/ > output.txt 2>&1
+redirige la salida del comando ejecutado al archivo output, sea stderr o stdout
+
+
+ b         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
