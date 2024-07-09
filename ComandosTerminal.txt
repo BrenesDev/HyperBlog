@@ -1,0 +1,34 @@
+pwd - print work directory
+file - tipo de archivo
+ls - lS ordena los archivo por tamanio
+ls -lr muestra los archivos en reversa
+touch para crear archivos
+cp -> copy de copiar archivos
+mv -> move de mover archivos
+rm -> remove para borrar un archivo
+rm -i -> remove para confirmación
+rm -r -> eliminar directorios
+head archivo -n 15-> muestra las primeras n líneas de un archivo de texto, por defecto son las primeras 10.
+
+tail -> las ultimas líneas de un archivo
+less -> muestra todo el archivo, permite hacer búsqueda dentro de un archivo de texto
+open o xdg-open -> abre un archivo de texto en el editor de código predeterminado presionando / e ingresando la palabra a buscar.
+whatis cmd -> saber que hace un comando
+
+WildCards
+búsqueda por patrones de archivos
+
+ls *.ext -> busca arch con la extension
+ls [ab]*-> archivos que empiecen con a o b
+ls [[:lower:]]* empiecen M o m
+
+
+
+
+
+
+
+
+
+
+
