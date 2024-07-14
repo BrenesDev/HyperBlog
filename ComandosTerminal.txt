@@ -1,3 +1,6 @@
+---------------------------------------------------------------------------------
+Comandos
+---------------------------------------------------------------------------------
 pwd - print work directory
 file - tipo de archivo
 ls - lS ordena los archivo por tamanio
@@ -11,11 +14,15 @@ rm -r -> eliminar directorios
 head archivo -n 15-> muestra las primeras n líneas de un archivo de texto, por defecto son las primeras 10.
 
 tail -> las ultimas líneas de un archivo
-less -> muestra todo el archivo, permite hacer búsqueda dentro de un archivo de texto
+less -> muestra todo el archivo, permite hacer búsqueda dentro de un archivo de texto mediante el slash
 open o xdg-open -> abre un archivo de texto en el editor de código predeterminado presionando / e ingresando la palabra a buscar.
 whatis cmd -> saber que hace un comando
-
+echo -> imprimir algo en la terminal tipo php
+cat -> concatena varias salidas
+cat > mitexto.txt escribes dentro de un archivo
+--------------------------------------------------------------------------------
 WildCards
+--------------------------------------------------------------------------------
 búsqueda por patrones de archivos
 
 ls *.ext -> busca arch con la extension
@@ -23,36 +30,85 @@ ls [ab]*-> archivos que empiecen con a o b
 ls [[:lower:]]* empiecen M o m
 ls pictures > archivo.txt moviendo el nombre de todas las pictures al archivo 
 
+---------------------------------------------------------------------------------
 Redirecciones: Cómo funciona la Shell
+---------------------------------------------------------------------------------
 1 stdout -> salida sin error
-2 stderr -> salida erronea
+2 stderr -> salida errónea
 
 ls documents/ > output.txt 2>&1
 redirige la salida del comando ejecutado al archivo output, sea stderr o stdout
 
+---------------------------------------------------------------------------------
+Pipe Operator | 
+---------------------------------------------------------------------------------
+nos permite ejecutar un comando que su stdout pase como stdin a otro comando
 
- b         
+ls -lh | less
+lista en lectura human lo que hay en el directorio y lo redirige al comando less
 
+$ ls -lh | less | tee output.txt
+lista en lectura human lo que hay en el directorio y lo redirige al comando less que
+lo redirige al comando tee que guarda en el archivo output.txt el resultado.
 
+$ ls -lh | sort | less | tee output.txt 
+pasa por el filtro de ordenas los resultados
 
+----------------------------------------------------------------------------------
+Encadenando comandos Operadores de control
+----------------------------------------------------------------------------------
+Simbolos reservados por la terminal que permiten ejecutar varios comandos y 
+encadenarlos, async o sync o con condicionales
+Si se cumple un comando se ejecute el segundo por ejemplo  crear una carpeta y moverse a ella
 
+------------
+sincronos
+------------
+con el ; se crean comandos sincronos, es decir se ejecutan uno despues de otro
+$ ls; mkdir Control_operator ; ls
+lista, crea una carpeta, vuelve a listar con la carpeta creada
 
+------------
+asincronos
+------------
+por cada comando que se ejecute se abre una shell o una linea de comandos en segundo plano
+es decir ocupa un hilo de procesamiento para ejecutar comandos de forma paralela
 
+$ ls & mkdir prueba & mkdir pruebados
 
+-------------
+condicionales
+-------------
+mkdir test && cd test
+se crea test y si se crea correctamente se mueve hacia el directorio
 
+$ mkdir test && cd test && touch archivo.txt && echo "archivo creado" > archivo.txt
+crea test, se mueve a test, crea el archivo, imprime y guarda en el archivo
 
+igual existe el ordena
 
+---------------------------------------------------------------------------------
+Permisos - Como manejar permisos
+---------------------------------------------------------------------------------
+Tipos de archivos
+Atributo  Tipo de archivo
+ -        Archivo normal
+ d        Un directorio
+ l        Link simbolico
+ b        Archivo de bloque especial
 
+Tipos de Mods
+Dueño : la persona que creo el archivo -- u
+Grupos: un archivo puede ser compartido entre diferetes usuarios -- g
+world : otro mod que no es dueño ni Grupos -- o
+Todos : todos los anteriores -- a
 
+Tipos de permisos
+r read - w write - x de execute
 
-
-
-
-
-
-
-
-
+--------------------
+Modificando permisos
+--------------------
 
 
 

@@ -1,0 +1,7 @@
+-rw-r--r-- 1 jeffr 197610    0 Jul 14 09:52 output.txt
+-rw-r--r-- 1 jeffr 197610   11 Jun 30 19:50 README.md
+-rw-r--r-- 1 jeffr 197610  995 Jun 30 18:02 blogpost.html
+-rw-r--r-- 1 jeffr 197610 2.4K Jul 14 09:50 ComandosTerminal.txt
+-rw-r--r-- 1 jeffr 197610 3.2K Jun 30 19:52 Hola.txt
+drwxr-xr-x 1 jeffr 197610    0 Jun 30 18:02 css/
+total 13K
