@@ -109,6 +109,17 @@ r read - w write - x de execute
 --------------------
 Modificando permisos
 --------------------
+chmod u-r mitexto.txt quitando permiso de read al usuario
+chmod u+r mitexto.txt quitando permiso de read al usuario
+chmod u-x, go+w mitexto.txt 
+
+
+------------------------------------------------------------------------------------
+Variables de entorno
+------------------------------------------------------------------------------------
+Son vaiables que sirven para manejar un entorno lobal de trabajo, dependiendo del 
+SO operativo se debe modificar el archivo para poder configurarlas
+
 
 
 
